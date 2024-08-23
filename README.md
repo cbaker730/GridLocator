@@ -10,7 +10,7 @@ Determine maidenhead grid location or lat/lon coordinates
     FN10ac
 
 
-# Return coordinates for a given grid location
+## Return coordinates for a given grid location
 
     $ python3 grid.py --grid DM46
     Center of grid DM46:
