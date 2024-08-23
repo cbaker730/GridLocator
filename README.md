@@ -15,4 +15,5 @@ Determine maidenhead grid location or lat/lon coordinates
     $ python3 grid.py --grid DM46
     Center of grid DM46:
     (36.5, -111.0)
+    https://www.google.com/maps/search/36.5,+-111.0
 
