@@ -52,7 +52,11 @@ def getCoords(gridLoc):
         spot = "Center"
     else:
         spot = "Southwest corner"
+
     print(f"{spot} of grid {gridLoc}: \n{coords}")
+
+    URL = "https://www.google.com/maps/search/36.5,+-111.0"
+    print(f"https://www.google.com/maps/search/{coords[0]},+{coords[1]}")
 
 if __name__ == '__main__':
     parser = ArgumentParser()
